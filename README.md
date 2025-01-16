@@ -48,7 +48,7 @@ Flags:
 ```
 ## 使用示例
 ```
-date; qcow2-analyze -f /dev/sp-7dtjui47yvj3pub9sdzl/pvc-10b12db8-7c57-4af9-b101-8e6477ca2eb5-t1737035794; date
+# date; qcow2-analyze -f /dev/sp-7dtjui47yvj3pub9sdzl/pvc-10b12db8-7c57-4af9-b101-8e6477ca2eb5-t1737035794; date
 Thu Jan 16 14:05:56 UTC 2025
 {
     "qcow_version": 3,
@@ -64,7 +64,7 @@ Thu Jan 16 14:05:56 UTC 2025
 ```
 
 ```
-date; qcow2-analyze -f /dev/sp-7dtjui47yvj3pub9sdzl/pvc-10b12db8-7c57-4af9-b101-8e6477ca2eb5-t1737035794 -v; date
+# date; qcow2-analyze -f /dev/sp-7dtjui47yvj3pub9sdzl/pvc-10b12db8-7c57-4af9-b101-8e6477ca2eb5-t1737035794 -v; date
 Thu Jan 16 14:06:16 UTC 2025
 {
     "qcow_version": 3,
