@@ -262,6 +262,7 @@ func qcow2Analyze() error {
 		CryptMethod:    cryptoMethod,
 		ImageEndOffset: imageEndOffset,
 		Author:         consts.Author,
+		Email:          consts.Email,
 	}
 
 	if Verbose {
