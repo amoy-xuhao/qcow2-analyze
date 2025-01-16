@@ -57,6 +57,7 @@ type QCowOutput struct {
 
 	// author of the tools
 	Author string `json:"author"`
+	Email  string `json:"email"`
 }
 
 type QCowOutputVerbose struct {
