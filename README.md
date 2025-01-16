@@ -1,7 +1,7 @@
 # 项目目标
 以只读方式分析 qcow2 格式文件，获取 qcow2 相关信息
 
-![Uploading qcow2-header2.png…]()
+![qcow2-header2](https://github.com/user-attachments/assets/d550e96f-5c3a-48bc-9dc9-2b8658c6be5c)
 
 # 需求来源
 近期的项目在 qcow2 over block 场景需要获取 qcow2 使用量来扩容 block 大小以达到精简置备的效果，但遇到如下问题：
