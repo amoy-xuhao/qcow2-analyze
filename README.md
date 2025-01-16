@@ -1,5 +1,5 @@
 # 项目目标
-分析 qcow2 格式文件，获取 qcow2 相关信息
+以只读方式分析 qcow2 格式文件，获取 qcow2 相关信息
 # 需求来源
 近期的项目在 qcow2 over block 场景需要获取 qcow2 使用量来扩容 block 大小以达到精简置备的效果，但遇到如下问题：
 1. 官方 qemu-img info 工具不能获取到 qcow2 实际占用空间
