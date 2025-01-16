@@ -12,5 +12,6 @@ const (
 
 	ReadMaxLength = 512 // bytes
 
-	Author = "xuhao@cestc.cn"
+	Author = "xuhao"
+	Email  = "912924554@qq.com"
 )
